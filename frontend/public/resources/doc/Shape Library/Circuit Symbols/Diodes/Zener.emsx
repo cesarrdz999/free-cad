@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="0" Z="1.5875">
+		<Machine Id="14" Name="Comment" CTM="0"/>
+		<Contour>
+			<Straight P1="0.367069,12.676064" P2="8.833736,12.676064"/>
+			<Straight P1="8.833736,21.185064" P2="8.833736,4.167064"/>
+			<Straight P1="8.833736,21.185064" P2="17.300403,12.676064"/>
+			<Straight P1="8.833736,4.167064" P2="17.300403,12.676064"/>
+			<Straight P1="17.300403,12.676064" P2="25.767069,12.676064"/>
+			<Straight P1="17.300403,21.185064" P2="17.300403,4.167064"/>
+			<Straight P1="17.300403,21.185064" P2="21.533736,21.185064"/>
+			<Straight P1="13.067069,4.167064" P2="17.300403,4.167064"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="19"/>
+</eMachineShop3DObjects>

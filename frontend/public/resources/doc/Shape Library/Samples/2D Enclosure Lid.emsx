@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="0" Z="2.3622">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Straight P1="6.35,-0" P2="95.25,0"/>
+			<Arc Center="95.25,6.35" Radius="6.35" StartAngle="270" IncAngle="90"/>
+			<Straight P1="101.6,6.35" P2="101.6,69.85"/>
+			<Arc Center="95.25,69.85" Radius="6.35" StartAngle="0" IncAngle="90"/>
+			<Straight P1="95.25,76.2" P2="6.35,76.2"/>
+			<Arc Center="6.35,69.85" Radius="6.35" StartAngle="90" IncAngle="90"/>
+			<Straight P1="-0,69.85" P2="0,6.35"/>
+			<Arc Center="6.35,6.35" Radius="6.35" StartAngle="180" IncAngle="90"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="2.3622" Z="-2.3622">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="6.35,69.85" Radius="2.38125"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="2.3622" Z="-2.3622">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="95.25,69.85" Radius="2.38125"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="2.3622" Z="-2.3622">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="6.35,6.35" Radius="2.38125"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="2.3622" Z="-2.3622">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="95.25,6.35" Radius="2.38125"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="25"/>
+</eMachineShop3DObjects>

@@ -1,0 +1,110 @@
+
+body, #app, .appContainer{
+  padding: 0px;
+  margin: 0px;
+  height:100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #efefef;
+  overflow: hidden;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.appContainer{
+
+  section{
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    .mainCanvas{
+      display: flex;
+      flex: 1 0 auto;
+    }
+  }
+}
+
+.root-LeftMenu {
+  position: relative;
+  z-index: 90;
+  top: 100px;
+}
+
+
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sprite {
+  background-image: url(/resources/images/icons.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.sprite-3dPreview {
+  background-position: -5px -5px;
+}
+
+.sprite-Cancel {
+  background-position: -40px -5px;
+}
+
+.sprite-CircleTool {
+  background-position: -75px -5px;
+}
+
+.sprite-CornerTool {
+  background-position: -110px -5px;
+}
+
+.sprite-EditLineTool {
+  background-position: -145px -5px;
+}
+
+.sprite-Intersect {
+  background-position: -180px -5px;
+}
+
+.sprite-LineTool {
+  background-position: -215px -5px;
+}
+
+.sprite-Ok {
+  background-position: -250px -5px;
+}
+
+.sprite-Question {
+  background-position: -285px -5px;
+}
+
+.sprite-RectTool {
+  background-position: -320px -5px;
+}
+
+.sprite-UPS_logo {
+  width: 46px;
+  height: 46px;
+  background-position: -355px -5px;
+}
+
+.sprite-box-paper {
+  background-position: -411px -5px;
+}
+
+.sprite-drag-hand {
+  background-position: -446px -5px;
+}

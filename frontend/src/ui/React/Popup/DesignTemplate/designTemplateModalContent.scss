@@ -1,0 +1,245 @@
+// shape library modal
+.shapeLibHeading {
+  margin-left: 10px;
+}
+
+.dialogTitle {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.treeItem {
+  max-width: 200px;
+}
+.modalFooter {
+  justify-content: space-between !important;
+}
+
+.buttonContainer {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  min-width: 650px;
+  height: 525px;
+  background-color: #f0ecec;
+  overflow: hidden;
+  overflow-y: hidden;
+
+  .centerSection {
+    display: flex;
+    height: 525px;
+    justify-content: space-between;
+
+    .designList {
+      overflow: scroll;
+      width: 200px;
+      overflow-x: hidden;
+    }
+
+    .designSettings {
+      width: 70%;
+      min-height: 420px;
+      padding: 10px 8px;
+
+      .topHeader {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .topbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+        .resetBtn {
+          background-color: rgb(240, 236, 236);
+          color: #292929;
+          box-shadow: rgb(0, 0, 0) 2px 2px 1px;
+          margin: 10px 0px;
+          padding: 5px 30px;
+        }
+      }
+
+      .tableContainer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 140px;
+        border: 1px solid;
+        .unorderList {
+          width: 50%;
+          height: 30px;
+          display: flex;
+          .ulStyle {
+            height: 26px;
+            width: 100%;
+            list-style-type: none;
+            text-align: center;
+            padding: 0px;
+            margin-top: 0px;
+            .leftLi {
+              height: 100%;
+              width: 100%;
+              border-bottom: 1px solid black;
+              text-align: left;
+              padding-top: 5px;
+            }
+            .rightLi {
+              border-left: 1px solid black;
+              padding-top: 5px;
+              .inputText {
+                border: none;
+                background-color: #f0ecec;
+                outline: none;
+                width: 99%;
+                height: 90%;
+                text-indent: 10px;
+              }
+            }
+            .noBottomBorder {
+              border-bottom: none;
+            }
+            .whiteRow {
+              background: #fff;
+              background-color: #fff;
+              width: 98.8%;
+            }
+            .leftSpace {
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+      .shapeContainer {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        .previewHeadline {
+          width: 100%;
+          padding: 10px;
+        }
+        #preview {
+          border: 1px solid;
+          width: 100%;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .triangle {
+            margin: 0 0 81px 0;
+            height: 100%;
+          }
+          .tetragon {
+            margin: 0 0 0 55px;
+            height: 100%;
+          }
+          .pentagon {
+            margin: 0 0 0 35px;
+            height: 100%;
+          }
+          .hexagon {
+            margin: 0 0 0 135px;
+            height: 100%;
+          }
+          .octagon {
+            height: 100%;
+            margin: 0 0 0 35px;
+          }
+          .enneagon {
+            height: 100%;
+            margin: 0 0 0 60px;
+          }
+          canvas {
+            width: 345px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    .centerSection {
+      .designList {
+        width: 100%;
+        overflow: unset;
+      }
+    }
+    .treeItem {
+      width: 73%;
+    }
+    .rightSection {
+      width: 81vw;
+      .tableContainer {
+        .unorderList {
+          .ulStyle {
+            .whiteRow {
+              width: 98.7%;
+            }
+          }
+        }
+      }
+      .shapeContainer {
+        #preview {
+          canvas {
+            width: 450px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 680px) {
+    .centerSection {
+      flex-direction: column;
+      .designList {
+        width: 100%;
+      }
+    }
+    .centerSection {
+      .shapeContainer {
+        #preview {
+          canvas {
+            width: 345px;
+            padding-top: 54px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .modalFooter {
+    flex-direction: column;
+  }
+  .buttonContainer {
+    width: 85%;
+  }
+  .content {
+    min-width: 250px;
+    overflow-y: visible; 
+    .centerSection {
+      .designSettings {
+        .rightSection {
+          width: 250px;
+        }
+        .shapeContainer {
+          #preview {
+            canvas {
+              width: 230px;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

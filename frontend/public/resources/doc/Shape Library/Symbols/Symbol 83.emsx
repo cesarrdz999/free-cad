@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="1.5875" Z="AirInside" ThroughHole="">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="15.111907,15.586582" Radius="6.420631"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="0" Z="1.5875">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Straight P1="6.328128,10.294719" P2="1.327908,5.357002"/>
+			<Arc Center="3.358062,3.324477" Radius="2.872748" StartAngle="134.966552" IncAngle="180.066896"/>
+			<Straight P1="5.390587,1.294324" P2="10.515811,6.419549"/>
+			<Arc Center="15.111907,15.586582" Radius="10.254686" StartAngle="243.372088" IncAngle="327.695135"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="19"/>
+</eMachineShop3DObjects>

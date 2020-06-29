@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="0" Z="1.5875">
+		<Machine Id="14" Name="Comment" CTM="0"/>
+		<Contour>
+			<Straight P1="0.568734,13.272875" P2="25.968734,13.272875"/>
+			<Straight P1="13.268734,25.972875" P2="13.268734,0.572875"/>
+			<Circle Center="13.268734,13.272875" Radius="1.5875"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="19"/>
+</eMachineShop3DObjects>

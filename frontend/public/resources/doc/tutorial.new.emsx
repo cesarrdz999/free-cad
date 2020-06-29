@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+	<View Type="Top">
+		<Region BaseHeight="-50000000" Z="AirInside">
+			<Machine Id="41" Name="Auto"/>
+			<Contour>
+				<Circle Center="271.9481403853541,-20.495331930764937" Radius="4.228549706165004"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="-50000000" Z="AirInside">
+			<Machine Id="41" Name="Auto"/>
+			<Contour>
+				<Circle Center="216.01141986285646,-20.495331930764937" Radius="4.228549706165004"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="-50000000" Z="AirInside">
+			<Machine Id="41" Name="Auto"/>
+			<Contour>
+				<Circle Center="58.985200026462834,-45.85154149788569" Radius="4.228549706165004"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="-50000000" Z="AirInside">
+			<Machine Id="41" Name="Auto"/>
+			<Contour>
+				<Straight P1="175.12929515552855,-53.82594847854488" P2="157.54843344951126,-53.82594847854481"/>
+				<Arc Center="184.25197606287645,-47.92360459080848" Radius="10.865586514606077" StartAngle="212.90273144285499" IncAngle="294.1945371142903"/>
+				<Straight P1="157.54843344951132,-42.02126070307216" P2="175.1292951555285,-42.021260703072116"/>
+				<Straight P1="157.54843344951132,-53.82594847854473" P2="157.54843344951132,-42.02126070307216"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="3.17">
+			<Machine Id="41" Name="Auto"/>
+			<Contour>
+				<Straight P1="50.997460911385105,-20.465154591026412" P2="50.991018992255505,-71.23792840474499"/>
+				<Arc Center="59.45456003051203,-20.467381538560776" Radius="8.457099412330008" StartAngle="89.9849127117739" IncAngle="90.00000000000001"/>
+				<Arc Center="59.44811840458553,-71.23792840474499" Radius="8.457099412330008" StartAngle="180" IncAngle="90"/>
+				<Straight P1="59.44811840458553,-79.69502781707499" P2="271.87447372216604,-79.69502781707499"/>
+				<Arc Center="271.87447372216604,-71.23792840474499" Radius="8.457099412330008" StartAngle="270" IncAngle="90"/>
+				<Straight P1="280.33157313449607,-71.23792840474499" P2="280.33790265100845,-20.52562244558737"/>
+				<Arc Center="271.88090798338493,-20.52331825221918" Radius="8.457099412330008" StartAngle="359.9849127117739" IncAngle="90"/>
+				<Straight P1="271.88313493091925,-12.066219133092261" P2="197.6645417750826,-12.04667568081576"/>
+				<Arc Center="165.78642257526056,18.593733238188285" Radius="44.21593765195809" StartAngle="223.83566064457085" IncAngle="92.29850413440613"/>
+				<Straight P1="59.45678697804638,-12.010282419433857" P2="133.89217115707942,-12.029882957742785"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="3.17">
+			<Machine Id="6" Name="Bend"/>
+			<Processing>
+				<Bend Angle="90" Radius="0.1"/>
+			</Processing>
+			<Contour>
+				<Straight P1="260.7049216489778,-12.063275653991903" P2="260.7117173184884,-79.69502781707499"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="3.17">
+			<Machine Id="6" Name="Bend"/>
+			<Processing>
+				<Bend Angle="90" Radius="0.1"/>
+			</Processing>
+			<Contour>
+				<Straight P1="68.92528451368646,-12.012775691292692" P2="68.91765841734247,-79.69502781707499"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="-50000000" Z="AirInside">
+			<Machine Id="41" Name="Auto"/>
+			<Contour>
+				<Straight P1="74.66456347585861,-63.412662970946336" P2="88.35927940169586,-63.412662970946336"/>
+				<Straight P1="88.35927940169586,-50.73215560829443" P2="88.35927940169586,-63.412662970946336"/>
+				<Straight P1="74.66456347585861,-50.73215560829443" P2="88.35927940169586,-50.73215560829443"/>
+				<Straight P1="74.66456347585861,-63.412662970946336" P2="74.66456347585861,-50.73215560829443"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="0">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Straight P1="89.77704169788633,-12.004382765669199" P2="89.77704169788633,-15.62512281212079"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="71.7863161627763,-19.34623807008704" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try clicking this line. Notice that the Z value on the</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="154.0494222519822,-29.05950443859747" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Click the shape below and notice</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="73.1268946302328,-33.87069039775271" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try positioning the circle accurately: Drag its </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="0">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Straight P1="68.9176584175448,-76.7907112043047" P2="72.15748912455135,-76.7907112043047"/>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="75.30533463984959,-77.58988428681229" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try creating a bend line: draw a straight line and select Bend on the numeric bar.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="145.2024378177926,0.5252005986102266" Height="3" FontName="" HFlip="0" VFlip="0" Angle="0">Quick Start Tutorial</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="97.702963451485,-7.311210503274739" Height="3" FontName="" HFlip="0" VFlip="0" Angle="0">The online version of eMachineShop CAD supports 2D shapes and bends</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="144.9484707324564,-16.793177020124194" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Also see our 3D CAD for Windows</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="154.38456686884635,-32.73522752291809" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">that the Z value is Air Inside which </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="159.48556335650804,-44.9600651296441" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try drawing this shape.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="159.48556335650804,-48.300643597100596" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Draw a circle and rectangle.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="72.12146077964043,-23.35710577127178" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">numeric bar is set to .125 for 1/8" sheet thickness.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="73.1268946302328,-37.37884117364126" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">center so it snaps to the center of the left outer </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="72.73549458783684,-40.88699194952982" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">edge. On the numeric bar near the right arrow button </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="90.1903912024548,-52.27747091149072" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try drawing a rectangle and </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="90.52553581931893,-55.28290476208309" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">using the round corner button.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="213.20515228735582,-30.12259138270563" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try making 3 copies of this hole. Select it </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="213.707869212652,-33.463169850162124" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">and click the Repeat (OO) button. Then</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="214.37815844638027,-42.3064652429148" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try changing the diameter of a circle by selecting it</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="214.7133030632444,-46.149760635667484" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">and setting the new value on the numeric bar.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="214.71330306324438,-51.814616018803356" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try threading a hole by selecting it</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="214.88087537167647,-54.98762217782779" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">and selecting Thead in the droplist.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="215.5511646054047,-61.3227667946919" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try creating a comment to yourself or to the </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="215.71873691383678,-64.83091757058045" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">machinist: click the text "A" button; click in the </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="215.88630922226884,-68.17149603803696" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">workspace; type the text; and select the </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="90.52553581931893,-61.79648938856401" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try rotating the rectangle by clicking it </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="90.52553581931893,-65.13706785602051" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">twice and dragging a rotation handle.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="107.9539494922755,-85.18862088899223" Height="3" FontName="" HFlip="0" VFlip="0" Angle="0">Congratulations ... you are now ready to make your own custom parts!</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="213.707869212652,-36.63617600918655" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">an arrow button 3 times.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="215.88630922226884,-72.01479143078961" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">comment type in the drop list.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="72.56792227940477,-43.89242580012219" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">enter 2mm. Click the right arrow button 3 times. </Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="159.48556335650804,-51.97636668142122" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Finish with the Eraser tool.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="154.71971148571046,-36.07580599037459" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">creates a hole or cutout.</Text>
+			</Contour>
+		</Region>
+		<Region BaseHeight="0" Z="1">
+			<Machine Id="14" Name="Comment to Self" CTM="0" LineType="undefined"/>
+
+			<Contour>
+				<Text Position="147.21303860419937,-65.71268563567966" Height="2" FontName="" HFlip="0" VFlip="0" Angle="0">Try selecting a material for your part via the toolbar.</Text>
+			</Contour>
+		</Region>
+	</View>
+	<QuantityOfParts Value="100"/>
+	<Finishing>
+		<Method ID="151" Name="Anodize, Clear" StandardColor="RAL Color"  />
+	</Finishing>
+</eMachineShop3DObjects>

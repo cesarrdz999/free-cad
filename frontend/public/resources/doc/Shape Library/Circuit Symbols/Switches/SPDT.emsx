@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="0" Z="1.5875">
+		<Machine Id="14" Name="Comment" CTM="0"/>
+		<Contour>
+			<Circle Center="5.205742,3.935363" Radius="1.27"/>
+			<Circle Center="11.555742,1.395363" Radius="1.27"/>
+			<Straight P1="3.935742,3.935363" P2="0.125742,3.935363"/>
+			<Straight P1="16.635742,1.395363" P2="12.825742,1.395363"/>
+			<Circle Center="11.555742,6.475363" Radius="1.27"/>
+			<Straight P1="16.635742,6.475363" P2="12.825742,6.475363"/>
+			<Straight P1="6.475742,3.935363" P2="11.855322,5.241202"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="19"/>
+</eMachineShop3DObjects>

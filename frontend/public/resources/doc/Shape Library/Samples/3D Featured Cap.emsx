@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="0" Z="5" WallAngle="92">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="49.449721,212.331375" Radius="34.78948"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="25" Z="0.5" WallAngle="92">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="49.449721,212.331375" Radius="24.286556"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="5" Z="20" WallAngle="92">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Arc Center="49.449721,212.331375" Radius="28.196122" StartAngle="305.081777" IncAngle="49.836446"/>
+			<Arc Center="77.645843,212.331375" Radius="2.5" StartAngle="267.459111" IncAngle="185.081777"/>
+			<Arc Center="49.449721,212.331375" Radius="28.196122" StartAngle="5.081777" IncAngle="49.836446"/>
+			<Arc Center="63.547782,236.749933" Radius="2.5" StartAngle="327.459111" IncAngle="185.081777"/>
+			<Arc Center="49.449721,212.331375" Radius="28.196122" StartAngle="65.081777" IncAngle="49.836446"/>
+			<Arc Center="35.35166,236.749933" Radius="2.5" StartAngle="27.459111" IncAngle="185.081777"/>
+			<Arc Center="49.449721,212.331375" Radius="28.196122" StartAngle="125.081777" IncAngle="49.836446"/>
+			<Arc Center="21.253599,212.331375" Radius="2.5" StartAngle="87.459111" IncAngle="185.081777"/>
+			<Arc Center="49.449721,212.331375" Radius="28.196122" StartAngle="185.081777" IncAngle="49.836446"/>
+			<Arc Center="35.35166,187.912817" Radius="2.5" StartAngle="147.459111" IncAngle="185.081777"/>
+			<Arc Center="49.449721,212.331375" Radius="28.196122" StartAngle="245.081777" IncAngle="49.836446"/>
+			<Arc Center="63.547782,187.912817" Radius="2.5" StartAngle="207.459111" IncAngle="185.081777"/>
+		</Contour>
+	</Region>
+ </View>
+ <View Type="Bottom">
+	<Region BaseHeight="0" Z="-20" WallAngle="92">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="49.449721,212.331375" Radius="26.605355"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="100"/>
+</eMachineShop3DObjects>

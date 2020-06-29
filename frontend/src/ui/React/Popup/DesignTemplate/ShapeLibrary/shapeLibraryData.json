@@ -1,0 +1,764 @@
+[
+  {
+    "name": "Circuit Symbols",
+    "nested": [
+      {
+        "name": "Wires",
+        "nested": [
+          {
+            "name": "Connected",
+            "url": "Circuit Symbols/Wires/Connected.emsx"
+          },
+          {
+            "name": "Not Connected",
+            "url": "Circuit Symbols/Wires/Not Connected.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Transistors",
+        "nested": [
+          {
+            "name": "FET",
+            "url": "Circuit Symbols/Transistors/FET.emsx"
+          },
+          {
+            "name": "NPN",
+            "url": "Circuit Symbols/Transistors/NPN.emsx"
+          },
+          {
+            "name": "PNP",
+            "url": "Circuit Symbols/Transistors/PNP.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Switches",
+        "nested": [
+          {
+            "name": "DPDT",
+            "url": "Circuit Symbols/Switches/DPDT.emsx"
+          },
+          {
+            "name": "Pushbutton",
+            "url": "Circuit Symbols/Switches/Pushbutton.emsx"
+          },
+          {
+            "name": "Relay",
+            "url": "Circuit Symbols/Switches/Relay.emsx"
+          },
+          {
+            "name": "SPDT",
+            "url": "Circuit Symbols/Switches/SPDT.emsx"
+          },
+          {
+            "name": "SPST",
+            "url": "Circuit Symbols/Switches/SPST.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Resistors",
+        "nested": [
+          {
+            "name": "Fixed",
+            "url": "Circuit Symbols/Resistors/Fixed.emsx"
+          },
+          {
+            "name": "Photocell",
+            "url": "Circuit Symbols/Resistors/Photocell.emsx"
+          },
+          {
+            "name": "Variable",
+            "url": "Circuit Symbols/Resistors/Variable.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "nested": [
+          {
+            "name": "Fuse",
+            "url": "Circuit Symbols/Misc/Fuse.emsx"
+          },
+          {
+            "name": "Ground",
+            "url": "Circuit Symbols/Misc/Ground.emsx"
+          },
+          {
+            "name": "Piezo",
+            "url": "Circuit Symbols/Misc/Piezo.emsx"
+          },
+          {
+            "name": "Terminal Block",
+            "url": "Circuit Symbols/Misc/Terminal Block.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Diodes",
+        "nested": [
+          {
+            "name": "Bridge Rectifier",
+            "url": "Circuit Symbols/Diodes/Bridge Rectifier.emsx"
+          },
+          {
+            "name": "LED",
+            "url": "Circuit Symbols/Diodes/LED.emsx"
+          },
+          {
+            "name": "Photo",
+            "url": "Circuit Symbols/Diodes/Photo.emsx"
+          },
+          {
+            "name": "Schottky",
+            "url": "Circuit Symbols/Diodes/Schottky.emsx"
+          },
+          {
+            "name": "Simple",
+            "url": "Circuit Symbols/Diodes/Simple.emsx"
+          },
+          {
+            "name": "Zener",
+            "url": "Circuit Symbols/Diodes/Zener.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Coils",
+        "nested": [
+          {
+            "name": "Inductor",
+            "url": "Circuit Symbols/Coils/Inductor.emsx"
+          },
+          {
+            "name": "Transformer",
+            "url": "Circuit Symbols/Coils/Transformer.emsx"
+          }
+        ]
+      },
+      {
+        "name": "DIPs",
+        "nested": [
+          {
+            "name": "DIP4",
+            "url": "Circuit Symbols/DIPs/DIP4.emsx"
+          },
+          {
+            "name": "DIP6",
+            "url": "Circuit Symbols/DIPs/DIP6.emsx"
+          },
+          {
+            "name": "DIP8",
+            "url": "Circuit Symbols/DIPs/DIP8.emsx"
+          },
+          {
+            "name": "DIP10",
+            "url": "Circuit Symbols/DIPs/DIP10.emsx"
+          },
+          {
+            "name": "DIP12",
+            "url": "Circuit Symbols/DIPs/DIP12.emsx"
+          },
+          {
+            "name": "DIP14",
+            "url": "Circuit Symbols/DIPs/DIP14.emsx"
+          },
+          {
+            "name": "DIP16",
+            "url": "Circuit Symbols/DIPs/DIP16.emsx"
+          },
+          {
+            "name": "DIP18",
+            "url": "Circuit Symbols/DIPs/DIP18.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Digital",
+        "nested": [
+          {
+            "name": "AND",
+            "url": "Circuit Symbols/Digital/AND.emsx"
+          },
+          {
+            "name": "NAND",
+            "url": "Circuit Symbols/Digital/NAND.emsx"
+          },
+          {
+            "name": "NOR",
+            "url": "Circuit Symbols/Digital/NOR.emsx"
+          },
+          {
+            "name": "NOT",
+            "url": "Circuit Symbols/Digital/NOT.emsx"
+          },
+          {
+            "name": "OR",
+            "url": "Circuit Symbols/Digital/OR.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Connectors",
+        "nested": [
+          {
+            "name": "Negative Polarity",
+            "url": "Circuit Symbols/Connectors/Negative Polarity.emsx"
+          },
+          {
+            "name": "Positive Polarity",
+            "url": "Circuit Symbols/Connectors/Positive Polarity.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Capacitors",
+        "nested": [
+          {
+            "name": "Non-polar",
+            "url": "Circuit Symbols/Capacitors/Non-polar.emsx"
+          },
+          {
+            "name": "Polarized",
+            "url": "Circuit Symbols/Capacitors/Polarized.emsx"
+          }
+        ]
+      },
+      {
+        "name": "Battery",
+        "nested": [
+          {
+            "name": "1 Cell",
+            "url": "Circuit Symbols/Battery/1 Cell.emsx"
+          },
+          {
+            "name": "Multi Cell",
+            "url": "Circuit Symbols/Battery/Multi Cell.emsx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "G&DT",
+    "nested": [
+      {
+        "name": "Angularity",
+        "url": "G&DT/Angularity.emsx"
+      },
+      {
+        "name": "Cilindricidy",
+        "url": "G&DT/Cilindricidy.emsx"
+      },
+      {
+        "name": "Circularity",
+        "url": "G&DT/Circularity.emsx"
+      },
+      {
+        "name": "Concentricity",
+        "url": "G&DT/Concentricity.emsx"
+      },
+      {
+        "name": "Flatness",
+        "url": "G&DT/Flatness.emsx"
+      },
+      {
+        "name": "Parallelism",
+        "url": "G&DT/Parallelism.emsx"
+      },
+      {
+        "name": "Perpendicularity",
+        "url": "G&DT/Perpendicularity.emsx"
+      },
+      {
+        "name": "Position",
+        "url": "G&DT/Position.emsx"
+      },
+      {
+        "name": "Profile of a line",
+        "url": "G&DT/Profile of a line.emsx"
+      },
+      {
+        "name": "Profile",
+        "url": "G&DT/Profile.emsx"
+      },
+      {
+        "name": "Runout",
+        "url": "G&DT/Runout.emsx"
+      },
+      {
+        "name": "Straightness",
+        "url": "G&DT/Straightness.emsx"
+      },
+      {
+        "name": "Symmetry",
+        "url": "G&DT/Symmetry.emsx"
+      },
+      {
+        "name": "Total runout",
+        "url": "G&DT/Total runout.emsx"
+      }
+    ]
+  },
+  {
+    "name": "Polygons",
+    "nested": [
+      {
+        "name": "Polygon 3",
+        "url": "Polygons/Polygon 3.emsx"
+      },
+      {
+        "name": "Polygon 4",
+        "url": "Polygons/Polygon 4.emsx"
+      },
+      {
+        "name": "Polygon 5",
+        "url": "Polygons/Polygon 5.emsx"
+      },
+      {
+        "name": "Polygon 6",
+        "url": "Polygons/Polygon 6.emsx"
+      },
+      {
+        "name": "Polygon 7",
+        "url": "Polygons/Polygon 7.emsx"
+      },
+      {
+        "name": "Polygon 8",
+        "url": "Polygons/Polygon 8.emsx"
+      },
+      {
+        "name": "Polygon 9",
+        "url": "Polygons/Polygon 9.emsx"
+      },
+      {
+        "name": "Polygon 10",
+        "url": "Polygons/Polygon 10.emsx"
+      }
+    ]
+  },
+  {
+    "name": "Samples",
+    "nested": [
+      {
+        "name": "2D Enclosure Lid",
+        "url": "Samples/2D Enclosure Lid.emsx"
+      },
+      {
+        "name": "2D Three-Finned Rotor",
+        "url": "Samples/2D Three-Finned Rotor.emsx"
+      },
+      {
+        "name": "Bent Sheet Metal Bracket",
+        "url": "Samples/Bent Sheet Metal Bracket.emsx"
+      }
+    ]
+  },
+
+  {
+    "name": "Symbols",
+    "nested": [
+      {
+        "name": "Symbol 1",
+        "url": "Symbols/Symbol 1.emsx"
+      },
+      {
+        "name": "Symbol 2",
+        "url": "Symbols/Symbol 2.emsx"
+      },
+      {
+        "name": "Symbol 3",
+        "url": "Symbols/Symbol 3.emsx"
+      },
+      {
+        "name": "Symbol 4",
+        "url": "Symbols/Symbol 4.emsx"
+      },
+      {
+        "name": "Symbol 5",
+        "url": "Symbols/Symbol 5.emsx"
+      },
+      {
+        "name": "Symbol 6",
+        "url": "Symbols/Symbol 6.emsx"
+      },
+      {
+        "name": "Symbol 7",
+        "url": "Symbols/Symbol 7.emsx"
+      },
+      {
+        "name": "Symbol 8",
+        "url": "Symbols/Symbol 8.emsx"
+      },
+      {
+        "name": "Symbol 9",
+        "url": "Symbols/Symbol 9.emsx"
+      },
+      {
+        "name": "Symbol 10",
+        "url": "Symbols/Symbol 10.emsx"
+      },
+      {
+        "name": "Symbol 11",
+        "url": "Symbols/Symbol 11.emsx"
+      },
+      {
+        "name": "Symbol 12",
+        "url": "Symbols/Symbol 12.emsx"
+      },
+      {
+        "name": "Symbol 13",
+        "url": "Symbols/Symbol 13.emsx"
+      },
+      {
+        "name": "Symbol 14",
+        "url": "Symbols/Symbol 14.emsx"
+      },
+      {
+        "name": "Symbol 15",
+        "url": "Symbols/Symbol 15.emsx"
+      },
+      {
+        "name": "Symbol 16",
+        "url": "Symbols/Symbol 16.emsx"
+      },
+      {
+        "name": "Symbol 17",
+        "url": "Symbols/Symbol 17.emsx"
+      },
+      {
+        "name": "Symbol 18",
+        "url": "Symbols/Symbol 18.emsx"
+      },
+      {
+        "name": "Symbol 19",
+        "url": "Symbols/Symbol 19.emsx"
+      },
+      {
+        "name": "Symbol 20",
+        "url": "Symbols/Symbol 20.emsx"
+      },
+      {
+        "name": "Symbol 21",
+        "url": "Symbols/Symbol 21.emsx"
+      },
+      {
+        "name": "Symbol 22",
+        "url": "Symbols/Symbol 22.emsx"
+      },
+      {
+        "name": "Symbol 23",
+        "url": "Symbols/Symbol 23.emsx"
+      },
+      {
+        "name": "Symbol 24",
+        "url": "Symbols/Symbol 24.emsx"
+      },
+      {
+        "name": "Symbol 25",
+        "url": "Symbols/Symbol 25.emsx"
+      },
+      {
+        "name": "Symbol 26",
+        "url": "Symbols/Symbol 26.emsx"
+      },
+      {
+        "name": "Symbol 27",
+        "url": "Symbols/Symbol 27.emsx"
+      },
+      {
+        "name": "Symbol 28",
+        "url": "Symbols/Symbol 28.emsx"
+      },
+      {
+        "name": "Symbol 29",
+        "url": "Symbols/Symbol 29.emsx"
+      },
+      {
+        "name": "Symbol 30",
+        "url": "Symbols/Symbol 30.emsx"
+      },
+      {
+        "name": "Symbol 31",
+        "url": "Symbols/Symbol 31.emsx"
+      },
+      {
+        "name": "Symbol 32",
+        "url": "Symbols/Symbol 32.emsx"
+      },
+      {
+        "name": "Symbol 33",
+        "url": "Symbols/Symbol 33.emsx"
+      },
+      {
+        "name": "Symbol 34",
+        "url": "Symbols/Symbol 34.emsx"
+      },
+      {
+        "name": "Symbol 35",
+        "url": "Symbols/Symbol 35.emsx"
+      },
+      {
+        "name": "Symbol 36",
+        "url": "Symbols/Symbol 36.emsx"
+      },
+      {
+        "name": "Symbol 37",
+        "url": "Symbols/Symbol 37.emsx"
+      },
+      {
+        "name": "Symbol 38",
+        "url": "Symbols/Symbol 38.emsx"
+      },
+      {
+        "name": "Symbol 39",
+        "url": "Symbols/Symbol 39.emsx"
+      },
+      {
+        "name": "Symbol 40",
+        "url": "Symbols/Symbol 40.emsx"
+      },
+      {
+        "name": "Symbol 41",
+        "url": "Symbols/Symbol 41.emsx"
+      },
+      {
+        "name": "Symbol 42",
+        "url": "Symbols/Symbol 42.emsx"
+      },
+      {
+        "name": "Symbol 43",
+        "url": "Symbols/Symbol 43.emsx"
+      },
+      {
+        "name": "Symbol 44",
+        "url": "Symbols/Symbol 44.emsx"
+      },
+      {
+        "name": "Symbol 45",
+        "url": "Symbols/Symbol 45.emsx"
+      },
+      {
+        "name": "Symbol 46",
+        "url": "Symbols/Symbol 46.emsx"
+      },
+      {
+        "name": "Symbol 47",
+        "url": "Symbols/Symbol 47.emsx"
+      },
+      {
+        "name": "Symbol 48",
+        "url": "Symbols/Symbol 48.emsx"
+      },
+      {
+        "name": "Symbol 49",
+        "url": "Symbols/Symbol 49.emsx"
+      },
+      {
+        "name": "Symbol 50",
+        "url": "Symbols/Symbol 50.emsx"
+      },
+      {
+        "name": "Symbol 51",
+        "url": "Symbols/Symbol 51.emsx"
+      },
+      {
+        "name": "Symbol 52",
+        "url": "Symbols/Symbol 52.emsx"
+      },
+      {
+        "name": "Symbol 53",
+        "url": "Symbols/Symbol 53.emsx"
+      },
+      {
+        "name": "Symbol 54",
+        "url": "Symbols/Symbol 54.emsx"
+      },
+      {
+        "name": "Symbol 55",
+        "url": "Symbols/Symbol 55.emsx"
+      },
+      {
+        "name": "Symbol 56",
+        "url": "Symbols/Symbol 56.emsx"
+      },
+      {
+        "name": "Symbol 57",
+        "url": "Symbols/Symbol 57.emsx"
+      },
+      {
+        "name": "Symbol 58",
+        "url": "Symbols/Symbol 58.emsx"
+      },
+      {
+        "name": "Symbol 59",
+        "url": "Symbols/Symbol 59.emsx"
+      },
+      {
+        "name": "Symbol 60",
+        "url": "Symbols/Symbol 60.emsx"
+      },
+      {
+        "name": "Symbol 61",
+        "url": "Symbols/Symbol 61.emsx"
+      },
+      {
+        "name": "Symbol 62",
+        "url": "Symbols/Symbol 62.emsx"
+      },
+      {
+        "name": "Symbol 63",
+        "url": "Symbols/Symbol 63.emsx"
+      },
+      {
+        "name": "Symbol 64",
+        "url": "Symbols/Symbol 64.emsx"
+      },
+      {
+        "name": "Symbol 65",
+        "url": "Symbols/Symbol 65.emsx"
+      },
+      {
+        "name": "Symbol 66",
+        "url": "Symbols/Symbol 66.emsx"
+      },
+      {
+        "name": "Symbol 67",
+        "url": "Symbols/Symbol 67.emsx"
+      },
+      {
+        "name": "Symbol 68",
+        "url": "Symbols/Symbol 68.emsx"
+      },
+      {
+        "name": "Symbol 69",
+        "url": "Symbols/Symbol 69.emsx"
+      },
+      {
+        "name": "Symbol 70",
+        "url": "Symbols/Symbol 70.emsx"
+      },
+      {
+        "name": "Symbol 71",
+        "url": "Symbols/Symbol 71.emsx"
+      },
+      {
+        "name": "Symbol 72",
+        "url": "Symbols/Symbol 72.emsx"
+      },
+      {
+        "name": "Symbol 73",
+        "url": "Symbols/Symbol 73.emsx"
+      },
+      {
+        "name": "Symbol 74",
+        "url": "Symbols/Symbol 74.emsx"
+      },
+      {
+        "name": "Symbol 75",
+        "url": "Symbols/Symbol 75.emsx"
+      },
+      {
+        "name": "Symbol 76",
+        "url": "Symbols/Symbol 76.emsx"
+      },
+      {
+        "name": "Symbol 77",
+        "url": "Symbols/Symbol 77.emsx"
+      },
+      {
+        "name": "Symbol 78",
+        "url": "Symbols/Symbol 78.emsx"
+      },
+      {
+        "name": "Symbol 79",
+        "url": "Symbols/Symbol 79.emsx"
+      },
+      {
+        "name": "Symbol 80",
+        "url": "Symbols/Symbol 80.emsx"
+      },
+      {
+        "name": "Symbol 81",
+        "url": "Symbols/Symbol 81.emsx"
+      },
+      {
+        "name": "Symbol 82",
+        "url": "Symbols/Symbol 82.emsx"
+      },
+      {
+        "name": "Symbol 83",
+        "url": "Symbols/Symbol 83.emsx"
+      },
+      {
+        "name": "Symbol 84",
+        "url": "Symbols/Symbol 84.emsx"
+      },
+      {
+        "name": "Symbol 85",
+        "url": "Symbols/Symbol 85.emsx"
+      },
+      {
+        "name": "Symbol 86",
+        "url": "Symbols/Symbol 86.emsx"
+      },
+      {
+        "name": "Symbol 87",
+        "url": "Symbols/Symbol 87.emsx"
+      },
+      {
+        "name": "Symbol 88",
+        "url": "Symbols/Symbol 88.emsx"
+      },
+      {
+        "name": "Symbol 89",
+        "url": "Symbols/Symbol 89.emsx"
+      },
+      {
+        "name": "Symbol 90",
+        "url": "Symbols/Symbol 90.emsx"
+      },
+      {
+        "name": "Symbol 91",
+        "url": "Symbols/Symbol 91.emsx"
+      },
+      {
+        "name": "Symbol 92",
+        "url": "Symbols/Symbol 92.emsx"
+      },
+      {
+        "name": "Symbol 93",
+        "url": "Symbols/Symbol 93.emsx"
+      },
+      {
+        "name": "Symbol 94",
+        "url": "Symbols/Symbol 94.emsx"
+      },
+      {
+        "name": "Symbol 95",
+        "url": "Symbols/Symbol 95.emsx"
+      },
+      {
+        "name": "Symbol 96",
+        "url": "Symbols/Symbol 96.emsx"
+      },
+      {
+        "name": "Symbol 97",
+        "url": "Symbols/Symbol 97.emsx"
+      },
+      {
+        "name": "Symbol 98",
+        "url": "Symbols/Symbol 98.emsx"
+      },
+      {
+        "name": "Symbol 99",
+        "url": "Symbols/Symbol 99.emsx"
+      },
+      {
+        "name": "Symbol 100",
+        "url": "Symbols/Symbol 100.emsx"
+      }
+    ]
+  }
+]

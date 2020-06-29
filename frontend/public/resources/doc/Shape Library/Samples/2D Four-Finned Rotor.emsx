@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="9.525" Z="-9.525">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="44.791638,45.137166" Radius="16.095385"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="0" Z="9.525">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Arc Center="36.356768,86.978774" Radius="0.635" StartAngle="53.411194" IncAngle="141.588806"/>
+			<Straight P1="35.743405,86.814424" P2="39.695588,72.060831"/>
+			<Arc Center="44.791638,45.137166" Radius="27.401705" StartAngle="100.71802" IncAngle="64.388038"/>
+			<Arc Center="53.915202,-1.132335" Radius="64.10868" StartAngle="123.736873" IncAngle="19.674321"/>
+			<Arc Center="2.95003,36.702296" Radius="0.635" StartAngle="143.411194" IncAngle="141.588806"/>
+			<Straight P1="3.11438,36.088933" P2="17.867974,40.041116"/>
+			<Arc Center="44.791638,45.137166" Radius="27.401705" StartAngle="190.71802" IncAngle="64.388038"/>
+			<Arc Center="91.061139,54.260729" Radius="64.10868" StartAngle="213.736873" IncAngle="19.674321"/>
+			<Arc Center="53.226508,3.295557" Radius="0.635" StartAngle="233.411194" IncAngle="141.588806"/>
+			<Straight P1="53.839871,3.459907" P2="49.887688,18.213501"/>
+			<Arc Center="44.791638,45.137166" Radius="27.401705" StartAngle="280.71802" IncAngle="64.388038"/>
+			<Arc Center="35.668075,91.406666" Radius="64.10868" StartAngle="303.736873" IncAngle="19.674321"/>
+			<Arc Center="86.633247,53.572036" Radius="0.635" StartAngle="323.411194" IncAngle="141.588806"/>
+			<Straight P1="86.468897,54.185399" P2="71.715303,50.233216"/>
+			<Arc Center="44.791638,45.137166" Radius="27.401705" StartAngle="10.71802" IncAngle="64.388038"/>
+			<Arc Center="-1.477862,36.013602" Radius="64.10868" StartAngle="33.736873" IncAngle="19.674321"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="25"/>
+</eMachineShop3DObjects>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="0" Z="1.5875">
+		<Machine Id="14" Name="Comment" CTM="0"/>
+		<Contour>
+			<Straight P1="26.083772,11.282477" P2="23.543772,11.282477"/>
+			<Arc Center="21.003772,11.282477" Radius="2.54" StartAngle="0" IncAngle="180"/>
+			<Arc Center="15.923772,11.282477" Radius="2.54" StartAngle="0" IncAngle="180"/>
+			<Arc Center="10.843772,11.282477" Radius="2.54" StartAngle="0" IncAngle="180"/>
+			<Arc Center="5.763772,11.282477" Radius="2.54" StartAngle="0" IncAngle="180"/>
+			<Straight P1="3.223772,11.282477" P2="0.683772,11.282477"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="19"/>
+</eMachineShop3DObjects>

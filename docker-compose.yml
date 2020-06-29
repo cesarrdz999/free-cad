@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    restart: unless-stopped
+    volumes:
+      - ./docker/proxy/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./docker/proxy/ssl.conf:/root/nginx/ssl.conf
+      - ./docker/proxy/force_redirect.conf:/root/nginx/force_redirect.conf
+      - ./docker/proxy/certbot:/etc/letsencrypt
+      - ./docker/proxy/certbot/.well-known:/var/www/.well-known
+    ports:
+      - 80:80
+      - 443:443
+      - 8080:8080
+    links:
+      - web
+      - back
+    command:
+      - /bin/sh
+      - -c
+      - |
+        if test -d /etc/letsencrypt/live; then
+        (cp /root/nginx/force_redirect.conf /etc/nginx/) && (cp /root/nginx/ssl.conf /etc/nginx/conf.d/); else
+        test -f /etc/nginx/force_redirect.conf && rm /etc/nginx/force_redirect.conf &&
+        test -f /etc/nginx/conf.d/ssl.conf && rm /etc/nginx/conf.d/ssl.conf; fi
+        while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g "daemon off;"
+
+  certbot:
+    container_name: certbot
+    build:
+      context: ./docker/certbot
+    links:
+      - nginx
+    volumes:
+      - ./docker/proxy/certbot/log:/var/log/letsencrypt
+      - ./docker/proxy/certbot/.well-known:/var/www
+      - ./docker/proxy/certbot:/etc/letsencrypt
+      - ./docker/proxy/certbot/lib:/var/lib/letsencrypt
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./docker/certbot/init.sh:/usr/local/bin/init.sh
+
+  web:
+    container_name: cad_web
+    build:
+      context: ./docker/web
+    volumes:
+      - ./frontend/public:/var/www/app
+
+  back:
+    container_name: cad_back
+    build:
+      context: ./docker/back
+    volumes:
+      - ./backend:/var/www/app
+      - ./docker/back/init.sh:/usr/local/bin/init_back.sh

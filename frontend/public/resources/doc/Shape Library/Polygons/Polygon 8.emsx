@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="0" Z="1.5875">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Straight P1="13.415608,26.18659" P2="4.435352,22.466846"/>
+			<Straight P1="4.435352,22.466846" P2="0.715608,13.48659"/>
+			<Straight P1="0.715608,13.48659" P2="4.435352,4.506334"/>
+			<Straight P1="4.435352,4.506334" P2="13.415608,0.78659"/>
+			<Straight P1="13.415608,0.78659" P2="22.395864,4.506334"/>
+			<Straight P1="22.395864,4.506334" P2="26.115608,13.48659"/>
+			<Straight P1="26.115608,13.48659" P2="22.395864,22.466846"/>
+			<Straight P1="22.395864,22.466846" P2="13.415608,26.18659"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="25"/>
+</eMachineShop3DObjects>

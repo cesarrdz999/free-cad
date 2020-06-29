@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="1.5875" Z="AirInside" ThroughHole="">
+		<Machine Id="41" Name="Auto"/>
+		<Processing>
+			<Thread Parameters="M5x0.8" Length="Maximal" Type="M"/>
+		</Processing>
+		<Contour>
+			<Circle Center="226.475949,22" Radius="2.1"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="1.5875" Z="-1.5875">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="118.237974,22" Radius="7.25"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="1.5875" Z="AirInside" ThroughHole="">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Straight P1="16,23.25" P2="13.535534,23.25"/>
+			<Arc Center="10,22" Radius="3.75" StartAngle="19.471221" IncAngle="321.057559"/>
+			<Straight P1="13.535534,20.75" P2="16,20.75"/>
+			<Straight P1="16,20.75" P2="16,23.25"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="0" Z="1.5875">
+		<Machine Id="41" Name="Auto"/>
+		<Processing>
+			<Bend  P1="70,44" P2="70,0" Angle="90" Radius="0.79375" BendSide="Left" />
+			<Bend  P1="166.475949,44" P2="166.475949,0" Angle="90" Radius="0.79375" BendSide="Left" />
+		</Processing>
+		<Contour>
+			<Straight P1="166.475949,44" P2="70,44"/>
+			<Straight P1="70,44" P2="10,32"/>
+			<Arc Center="10,22" Radius="10" StartAngle="90" IncAngle="168.866302"/>
+			<Straight P1="8.069009,12.188207" P2="70,0"/>
+			<Straight P1="70,0" P2="166.475949,0"/>
+			<Straight P1="166.475949,0" P2="226.475949,12"/>
+			<Arc Center="226.475949,22" Radius="10" StartAngle="270" IncAngle="180"/>
+			<Straight P1="226.475949,32" P2="166.475949,44"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="25"/>
+</eMachineShop3DObjects>

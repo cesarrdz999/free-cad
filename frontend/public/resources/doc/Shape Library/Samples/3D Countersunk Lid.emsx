@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<eMachineShop3DObjects VersionId="1.1">
+ <View Type="Top">
+	<Region BaseHeight="12.7" Z="-12.7">
+		<Machine Id="41" Name="Auto"/>
+		<Processing>
+			<FarEdge Type="Chamfer" Size="-2.54" Angle="45"/>
+		</Processing>
+		<Contour>
+			<Circle Center="11.174959,41.578137" Radius="3.175"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="12.7" Z="-6.35">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Circle Center="20.32,20.32" Radius="12.7"/>
+		</Contour>
+	</Region>
+	<Region BaseHeight="0" Z="12.7">
+		<Machine Id="41" Name="Auto"/>
+		<Contour>
+			<Straight P1="6.349996,0.000023" P2="44.449905,0"/>
+			<Arc Center="44.449908,6.35" Radius="6.35" StartAngle="269.999966" IncAngle="89.999633"/>
+			<Straight P1="50.799908,6.349955" P2="50.800002,19.691435"/>
+			<Arc Center="44.450002,19.69148" Radius="6.35" StartAngle="359.999598" IncAngle="78.463446"/>
+			<Arc Center="50.8,50.8" Radius="25.4" StartAngle="258.463045" IncAngle="-66.925917"/>
+			<Arc Center="19.691499,44.449908" Radius="6.35" StartAngle="11.537128" IncAngle="78.462872"/>
+			<Straight P1="19.691499,50.799908" P2="6.35,50.799908"/>
+			<Arc Center="6.35,44.449908" Radius="6.35" StartAngle="90" IncAngle="90"/>
+			<Straight P1="-0,44.449908" P2="-0,6.350023"/>
+			<Arc Center="6.35,6.350023" Radius="6.35" StartAngle="180" IncAngle="89.999966"/>
+		</Contour>
+	</Region>
+ </View>
+ <QuantityOfParts Value="25"/>
+</eMachineShop3DObjects>
